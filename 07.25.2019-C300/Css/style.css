@@ -1,0 +1,162 @@
+/*
+--------------------------
+Header Start
+--------------------------
+*/
+.topHeader {
+  padding: 15px 0;
+  border-bottom: 1px solid yellow; }
+  .topHeader .topAdress, .topHeader .headerSocial {
+    font-size: 14px;
+    color: #575f65; }
+    .topHeader .topAdress i, .topHeader .headerSocial i {
+      margin-right: 8px; }
+
+#Header {
+  position: fixed;
+  width: 100%;
+  color: #fff !important; }
+  #Header .logo {
+    margin-top: 15px; }
+  #Header .menu li {
+    padding: 0px 20px; }
+  #Header .header-right ul {
+    margin: 0;
+    font-size: 14px; }
+    #Header .header-right ul li {
+      padding: 15px;
+      cursor: pointer; }
+      #Header .header-right ul li:last-child {
+        background: green;
+        color: #fff;
+        border-radius: 100%;
+        padding: 15px 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3); }
+
+/*
+--------------------------
+Header End
+--------------------------
+*/
+/*
+--------------------------
+Our Services
+--------------------------
+*/
+#ourServices {
+  background: url(http://bdevs.net/theme/zomata/wp-content/uploads/2019/04/slider1.jpg);
+  height: 1000px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center; }
+  #ourServices .service-middle h1 {
+    font-size: 90px; }
+  #ourServices .service-middle p {
+    font-size: 18px; }
+  #ourServices .service-middle .btn1 {
+    position: relative;
+    z-index: 5; }
+    #ourServices .service-middle .btn1:hover {
+      border-color: #fab522; }
+      #ourServices .service-middle .btn1:hover::after {
+        height: 100%;
+        z-index: -2; }
+    #ourServices .service-middle .btn1::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      height: 0;
+      transition: .3s ease-in-out;
+      width: 100%;
+      left: 0;
+      background: #fab522 !important; }
+  #ourServices .service-middle .btn2 {
+    position: relative;
+    z-index: 5; }
+    #ourServices .service-middle .btn2:hover {
+      border-color: green; }
+      #ourServices .service-middle .btn2:hover::after {
+        height: 100%;
+        z-index: -2; }
+    #ourServices .service-middle .btn2::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      height: 0;
+      transition: .2s ease-in-out;
+      width: 100%;
+      left: 0;
+      background: green !important; }
+
+/*
+--------------------------
+Our Services end
+--------------------------
+*/
+/*
+--------------------------
+Our About Us
+--------------------------
+*/
+#AboutUs .about-right h1 {
+  font-size: 48px;
+  font-weight: 300; }
+#AboutUs .about-right span {
+  font-size: 22px;
+  color: #7b8e9d;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  display: inline-block; }
+#AboutUs .about-right p {
+  color: #7b8e9d;
+  font-size: 0.9em; }
+
+/*
+--------------------------
+Our About Us End
+--------------------------
+*/
+/*
+--------------------------
+Our Features 
+--------------------------
+*/
+#OurFeatures {
+  background: url(http://bdevs.net/theme/zomata/wp-content/uploads/2019/05/bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0; }
+  #OurFeatures .fer-item {
+    background: #fff;
+    padding: 60px 35px 53px 35px;
+    transition: all .2s;
+    position: relative;
+    z-index: 2; }
+    #OurFeatures .fer-item::after {
+      content: '';
+      position: absolute;
+      background: url(http://bdevs.net/theme/zomata/wp-content/themes/zomata/img/features/11.png);
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: none;
+      height: 100%;
+      z-index: -2; }
+    #OurFeatures .fer-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 60px 0px rgba(68, 68, 68, 0.17); }
+      #OurFeatures .fer-item:hover::after {
+        display: block; }
+
+/*
+--------------------------
+Our Features end
+--------------------------
+*/
+@media (max-width: 540px) {
+  h1 {
+    font-size: 3.5em !important; } }
+
+/*# sourceMappingURL=style.css.map */
